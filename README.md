@@ -2,7 +2,7 @@
 
 ## About
 
-A docker that runs a script, which acticates the following commands:
+A docker that runs a script, which activates the following commands:
 
 Clean exited processes:
 ```docker rm $(docker ps -q -f status=exited)```
