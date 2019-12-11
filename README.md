@@ -19,4 +19,4 @@ System prune:
 ## How to use
 
 All you need to do it run:
-```docker run -v /var/run/docker.sock:/var/run/docker.sock tci-docker-cleanup:latest```
+```docker run -v /var/run/docker.sock:/var/run/docker.sock tikalci/tci-docker-cleanup:latest```
