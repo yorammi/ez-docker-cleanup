@@ -1,4 +1,4 @@
-FROM centos:7.6.1810
+FROM centos:centos7
 
 LABEL maintainer="yorammi@yorammi.com"
 
