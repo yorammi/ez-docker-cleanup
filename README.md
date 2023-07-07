@@ -1,8 +1,9 @@
 # tci-docker-cleanup
+![ez logo](/resources/images/ez/ez-smiley-small-logo.png)
 
 ## About
 
-A docker that runs a script, which activates the following commands:
+A docker-container that runs a script, which activates the following commands:
 
 Clean exited processes:
 ```docker rm $(docker ps -q -f status=exited)```
@@ -19,4 +20,4 @@ System prune:
 ## How to use
 
 All you need to do is to run:
-```docker run -v /var/run/docker.sock:/var/run/docker.sock tikalci/tci-docker-cleanup:latest```
+```docker run -v /var/run/docker.sock:/var/run/docker.sock yorammi/ez-docker-cleanup:latest```
