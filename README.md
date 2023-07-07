@@ -1,4 +1,4 @@
-# tci-docker-cleanup
+# ez-docker-cleanup
 ![ez logo](/resources/images/ez/ez-smiley-small-logo.png)
 
 ## About
